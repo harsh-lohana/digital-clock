@@ -32,12 +32,12 @@ mode = "light"
 
 function changeBG() {
     if(mode == "light") {
-        document.getElementById("body").style.backgroundImage = "url(./images/dark-mode-bg.jpg)";
+        document.getElementById("body").style.backgroundImage = "url(images/dark-mode-bg.jpg)";
         document.getElementById("btn").innerText = "🔄Light Mode";
         mode = "dark";
     }
     else if(mode = "dark") {
-        document.getElementById("body").style.backgroundImage = "url(./images/light-mode-bg.jpg)";
+        document.getElementById("body").style.backgroundImage = "url(images/light-mode-bg.jpg)";
         document.getElementById("btn").innerText = "🔄Dark Mode";
         mode = "light";
     }
