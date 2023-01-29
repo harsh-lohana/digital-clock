@@ -1,4 +1,4 @@
-body {
+#body {
     margin: 0;
     height: 100vh;
     font-family: sans-serif;
@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("./images/bg1.jpg");
+    background-image: url("./images/light-mode-bg.jpg");
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
